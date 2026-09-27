@@ -1,0 +1,16 @@
+# Core numerical + ML stack used across the Zernike-moment fingerprint code.
+# Versions are lower bounds known to work; pin exact versions if you need
+# byte-for-byte reproducibility.
+
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+opencv-python>=4.8
+pillow>=10.0
+pandas>=2.0
+matplotlib>=3.7
+tqdm>=4.65
+
+# Required only for the CNN baseline (run_cnn_baseline.py,
+# eval_cnn_cross_difficulty.py). Omit if you only run the ZM pipeline.
+torch>=2.0

@@ -1,0 +1,43 @@
+# ---- Datasets (download separately; do not commit) ----
+Real/
+SOCOFing/
+*.BMP
+*.bmp
+
+# ---- Computed feature caches / tables ----
+zm_cache_*.npz
+zernike_moments.csv
+zernike_moments.xlsx
+*.npz
+
+# ---- Experiment outputs ----
+results/
+results_final/
+results_strong_zm/
+results_verification/
+results_cnn_baseline/
+*.pt
+*.pth
+
+# ---- Logs / scratch ----
+*_log.txt
+*_pid.txt
+mpl_cache/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+*.swp
