@@ -103,9 +103,3 @@ Each template is 44 floats (~180 bytes); matching is CPU-only, no GPU required.
 }
 ```
 
-## License
-
-Released under the MIT License. See [LICENSE](LICENSE).
-
-The SOCOFing dataset is distributed by its original authors under its own
-license and is not included here.
